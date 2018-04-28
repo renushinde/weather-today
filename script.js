@@ -6,7 +6,7 @@ $(document).ready(function(){
    var latitude;
    var longitude;
 
-   $.getJSON("http://api.ipstack.com/73.92.58.165?access_key=bb4f5d67d33d64882c6e4e7a81256cc1&format=1", function(position){
+   $.getJSON("https://ipapi.co/json", function(position){
       latitude=position.latitude;
       longitude= position.longitude;
 
